@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff6fa5, #9b6cff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 360px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.card h2 {
+  color: #ff5a8a;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-box input:focus {
+  border-color: #ff5a8a;
+}
+
+.forgot-text {
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.forgot-text a {
+  color: #ff5a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff5a8a;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ff3f78;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #ff5a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.forgot-text {
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.forgot-text a {
+  color: #ff5a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.divider span {
+  background: white;
+  padding: 0 10px;
+  color: #999;
+  font-size: 14px;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}
+
+/* Google Button */
+.google-btn,
+.facebook-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.google-btn img,
+.facebook-btn img {
+  width: 18px;
+}
+
+.google-btn {
+  background: #f5f5f5;
+  
+}
+
+.facebook-btn {
+  border-color: #1877f2;
+  color: white;
+  background-color: #1877f2;
+}

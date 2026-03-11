@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finder - Home</title>
+  <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>❤️Finder</h2>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <div class="container">
+
+    <div class="card" id="card">
+      <img id="profile-img" src="https://randomuser.me/api/portraits/women/44.jpg">
+      <h3 id="name">Sophia, 22</h3>
+      <p id="bio">Love travelling and coffee ☕</p>
+    </div>
+
+    <div class="buttons">
+      <button class="nope" onclick="nextProfile()">❌</button>
+      <button class="like" onclick="nextProfile()">❤️</button>
+    </div>
+
+  </div>
+
+  <script src="./js/home.js"></script>
+</body>
+</html>
